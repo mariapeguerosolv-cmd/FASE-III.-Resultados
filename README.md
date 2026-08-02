@@ -706,3 +706,6 @@ Se logró integrar:
 Los resultados muestran que el modelo de clasificación puede aportar valor al proceso de cobranza al identificar clientes con diferente nivel de riesgo, mientras que el modelo de regresión proporciona una primera aproximación para estimar recuperación financiera.
 
 Como trabajo futuro se plantea fortalecer la automatización, mejorar la calidad de información utilizada y evaluar modelos más avanzados para incrementar la precisión predictiva.
+
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/63db9d1b-b6cb-4ad4-bcf5-8772000e66fb" />
+
