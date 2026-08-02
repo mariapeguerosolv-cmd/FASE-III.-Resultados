@@ -2,41 +2,13 @@
 
 # Declaración de Uso de Inteligencia Artificial
 
-Herramienta de IA utilizada
-
-¿La usaste?
-
-Propósito / Descripción de uso
-
-ChatGPT / OpenAI
-
-☒ Sí ☐ No
-
-Apoyo en revisión técnica del código, documentación del proyecto, estructura del reporte y resolución de dudas relacionadas con Machine Learning, MLOps, Git, Docker y despliegue.
-
-Claude (Anthropic)
-
-☐ Sí ☒ No
-
-No utilizado.
-
-Gemini (Google)
-
-☒ Sí ☐ No
-
-Apoyo complementario para análisis conceptual y revisión de ideas relacionadas con inteligencia artificial.
-
-Copilot (Microsoft)
-
-☒ Sí ☐ No
-
-Apoyo en generación inicial de ideas y conceptualización de soluciones basadas en IA.
-
-Otra
-
-☐ Sí ☒ No
-
-No utilizado.
+| Herramienta          | ¿La usaste? | Propósito / Descripción                                                                 |
+|----------------------|-------------|-----------------------------------------------------------------------------------------|
+| ChatGPT / OpenAI     | ☑ Sí        | Apoyo en revisión técnica del código, documentación del proyecto, estructura del reporte y resolución de dudas sobre MLOps, MLflow y despliegue. |
+| Claude (Anthropic)   | ☐ No        | —                                                                                       |
+| Gemini (Google)      | ☑ Sí        | Apoyo para análisis conceptual y revisión de ideas relacionadas con inteligencia artificial aplicada a finanzas. |
+| Copilot (Microsoft)  | ☑ Sí        | Generación de ideas iniciales, exploración de soluciones para automatización financiera y apoyo en documentación. |
+| Otra                 | ☐ No        | —                                                                                       |
 
 ----------
 
