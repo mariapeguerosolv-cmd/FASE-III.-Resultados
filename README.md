@@ -588,6 +588,52 @@ Como resultado de la prueba de concepto desarrollada, se comprobó la viabilidad
 
 Aunque este modelo no forma parte del servicio de predicción implementado en la API, representa una línea de mejora para futuras versiones del proyecto, ya que la incorporación de variables textuales podría complementar la información financiera y contribuir a mejorar la capacidad predictiva de los modelos de clasificación y regresión.
 
+## 2.11 Estimación de beneficios y costos del proyecto
+
+Con base en el análisis de viabilidad realizado durante la etapa de planeación del proyecto, se estimaron los siguientes beneficios potenciales de implementar la solución **Predictive Collection** en un entorno empresarial.
+
+### Beneficios tangibles estimados (6 meses)
+
+•	Reducción de cartera vencida: $5,000,000.00 MXN (6 meses)
+•	Mejora en flujo de efectivo: $3,000,000.00 MXN
+•	Reducción de costos operativos: $2,000,000.00 MXN
+•	Disminución de horas hombre: $180,000.00 MXN
+•	Reducción de errores/retrabajo: $500,000.00 MXN
+      Total tangibles: $10,680,000.00 MXN (6 meses)
+
+<img width="745" height="456" alt="image" src="https://github.com/user-attachments/assets/ea761e67-571a-4ae7-90cd-5536da237fff" />
+
+
+Además de los beneficios cuantificables, se identificaron beneficios cualitativos como:
+
+-   Mejor experiencia del cliente.
+-   Mayor satisfacción de los usuarios.
+-   Incremento en la innovación.
+-   Mayor velocidad de respuesta.
+-   Mejor alineación estratégica.
+
+----------
+
+### Costos estimados del proyecto
+
+# Resumen de Costos
+
+| Etiquetas de fila        | Suma de Total        |
+|--------------------------|----------------------|
+| Datos                    | $29,200              |
+| Herramientas y Licencias | $47,200              |
+| Implementación           | $388,000             |
+| Infraestructura          | $26,200              |
+| Mantenimiento            | $32,500              |
+| Otros                    | $332,000             |
+| Talento Humano           | $918,000             |
+| **Total general**        | **$1,773,100.00 MXN**|
+
+<img width="752" height="450" alt="image" src="https://github.com/user-attachments/assets/2dfd549f-35e7-4963-9f71-709f409efe80" />
+
+
+Estas cifras corresponden a una **estimación realizada durante la fase de planeación del proyecto**, con el propósito de evaluar la viabilidad económica de una implementación empresarial a gran escala.
+
 ----------
 
 # 3. Portfolio técnico estratégico
