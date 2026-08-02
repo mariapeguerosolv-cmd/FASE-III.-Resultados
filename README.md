@@ -742,3 +742,8 @@ Como trabajo futuro se plantea fortalecer la automatización, mejorar la calidad
 
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/63db9d1b-b6cb-4ad4-bcf5-8772000e66fb" />
 
+<img width="1467" height="402" alt="image" src="https://github.com/user-attachments/assets/e5fc1670-4edd-46a7-8237-9e0fecc9dbfb" />
+
+<img width="265" height="747" alt="image" src="https://github.com/user-attachments/assets/a056e2e2-8096-488e-ae07-c1ac5a86cf51" />
+
+
