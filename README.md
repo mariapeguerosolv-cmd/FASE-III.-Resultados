@@ -630,45 +630,28 @@ Sistema predictivo capaz de:
 
 # Stack tecnológico
 
-Área
+| Área                | Tecnología              |
+|---------------------|-------------------------|
+| Lenguaje            | Python                  |
+| Machine Learning    | Scikit-learn            |
+| NLP                 | Jupyter Notebook / Python |
+| Experiment Tracking | MLflow                  |
+| API                 | FastAPI                 |
+| Contenedores        | Docker                  |
+| Control de versiones| Git/GitHub              |
+| Datos               | Pandas / CSV            |
+| Monitoreo           | Python                  |
 
-Tecnología
-
-Lenguaje
-
-Python
-
-Machine Learning
-
-Scikit-learn
-
-Experiment Tracking
-
-MLflow
-
-API
-
-FastAPI
-
-Contenedores
-
-Docker
-
-Control versiones
-
-Git/GitHub
-
-Datos
-
-Pandas / CSV
-
-Monitoreo
-
-Python
 
 ----------
 
 # 4. Simulación de entrevista profesional
+
+### ¿Qué modelos desarrollaste durante el proyecto?
+
+Se desarrollaron dos modelos principales: un modelo de clasificación mediante Regresión Logística para predecir el nivel de riesgo de los clientes y un modelo de Regresión Lineal para estimar la recuperación esperada de las cuentas por cobrar. Además, se desarrolló un modelo complementario de análisis de sentimientos aplicado a correos electrónicos de clientes como prueba de concepto para explorar el uso de técnicas de Procesamiento de Lenguaje Natural (NLP).
+
+----------
 
 ## ¿Cuál fue el objetivo del proyecto?
 
@@ -734,6 +717,8 @@ Se logró integrar:
     
 
 Los resultados muestran que el modelo de clasificación puede aportar valor al proceso de cobranza al identificar clientes con diferente nivel de riesgo, mientras que el modelo de regresión proporciona una primera aproximación para estimar recuperación financiera.
+
+De manera complementaria, se desarrolló un modelo de análisis de sentimientos aplicado a correos electrónicos de clientes, el cual permitió explorar el uso de técnicas de Procesamiento de Lenguaje Natural como una fuente adicional de información para enriquecer futuros modelos predictivos. Aunque esta funcionalidad no fue integrada al servicio de inferencia desplegado, representa una oportunidad para ampliar el alcance del sistema mediante la incorporación de variables textuales.
 
 Como trabajo futuro se plantea fortalecer la automatización, mejorar la calidad de información utilizada y evaluar modelos más avanzados para incrementar la precisión predictiva.
 
