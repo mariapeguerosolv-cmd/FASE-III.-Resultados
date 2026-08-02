@@ -1,0 +1,100 @@
+id,email,intent,sentiment,risk,action
+1,"Hello, good afternoon. I am having trouble paying this month, could we negotiate? Best regards.",concerned,negative,high,call
+2,"Hi team, thank you for the reminder. I will make the payment tomorrow. Regards.",collaborative,positive,low,reminder
+3,Good morning. I will not pay until my claim is resolved. Sincerely.,evasive,negative,high,call
+4,"Hello, I had some delays but I will cover the debt next week. Thank you.",neutral,neutral,medium,statement
+5,"Dear team, I confirm the payment has already been made. Best regards.",collaborative,positive,low,reminder
+6,"Hi, I need more time, my company has not paid me yet. Regards.",concerned,negative,medium,statement
+7,"Hello, I never received your invoice, please resend it. Thank you.",collaborative,neutral,low,reminder
+8,Good afternoon. I disagree with the charges and will not pay. Regards.,evasive,negative,high,call
+9,"Hi, the payment is in process and should reflect tomorrow. Best.",collaborative,positive,low,reminder
+10,"Hello, I do not have funds available this month. Regards.",concerned,negative,high,call
+11,Good morning. We are waiting for the credit approval to proceed. Thank you.,neutral,neutral,medium,statement
+12,"Dear team, the prices on the invoice are incorrect. Please review. Regards.",evasive,negative,high,call
+13,"Hello, the invoiced amount does not match the agreement. Regards.",concerned,negative,medium,statement
+14,"Hi, I had never received the invoice before, please send it again. Thank you.",collaborative,neutral,low,reminder
+15,Good afternoon. I do not have the bank details to make the payment. Regards.,concerned,negative,medium,statement
+16,"Hello, the payment will be made in a couple of days. Best regards.",collaborative,positive,low,reminder
+17,"Hi team, the payment will be made at the end of the month. Regards.",neutral,neutral,medium,statement
+18,Good morning. The payment is pending internal approval. Thank you.,concerned,neutral,medium,statement
+19,"Hello, I will forward the invoice to our payments department. Regards.",collaborative,neutral,low,reminder
+20,"Hi, I will review the invoice and confirm the payment. Best.",collaborative,neutral,low,reminder
+21,"Hello, I already paid this invoice before, please check your records. Regards.",evasive,negative,high,call
+22,"Dear team, I was out of office but will process the invoice now. Thank you.",collaborative,neutral,medium,statement
+23,Good afternoon. We are facing financial difficulties and need to sell products before paying. Regards.,concerned,negative,high,call
+24,"Hello, in the past payments were not requested so frequently. Best regards.",evasive,negative,medium,statement
+25,"Hi team, the payment is on hold due to audit. Regards.",neutral,negative,medium,statement
+26,"Hello, treasury will release the payment tomorrow. Best.",collaborative,positive,low,reminder
+27,"Good morning. The final client has not paid us yet, so we are delayed. Regards.",concerned,negative,high,call
+28,"Hi, the payment will be made once we receive funds. Thank you.",neutral,neutral,medium,statement
+29,"Hello, we are reviewing the invoice with our purchasing department. Regards.",collaborative,neutral,low,reminder
+30,"Hi team, the payment is scheduled for next week. Best.",collaborative,positive,low,reminder
+31,Good afternoon. I do not agree with the applied interests. Regards.,evasive,negative,high,call
+32,"Hello, the invoice was sent for approval, it will take a few days. Best regards.",neutral,neutral,medium,statement
+33,"Hi, the payment will be made after we receive reimbursement from our client. Regards.",concerned,negative,medium,statement
+34,"Hello, I confirm the payment will reflect today. Best.",collaborative,positive,low,reminder
+35,Good morning. I do not have authorization to release the payment yet. Regards.,concerned,neutral,medium,statement
+36,"Hi team, the payment is under review by the legal department. Best regards.",neutral,negative,medium,statement
+37,"Hello, our payment system was down but is now active again. Regards.",collaborative,neutral,low,reminder
+38,Good afternoon. We did not receive the invoice in the correct format. Regards.,evasive,negative,high,call
+39,"Hi, the payment will be made once we receive the purchase order. Best.",neutral,neutral,medium,statement
+40,"Hello, we are waiting for management confirmation. Regards.",concerned,neutral,medium,statement
+41,"Hi team, the payment will be made in two weeks. Best regards.",collaborative,neutral,medium,statement
+42,"Good morning. We already processed the transfer, it should arrive soon. Regards.",collaborative,positive,low,reminder
+43,"Hello, I do not recognize the invoiced amount. Regards.",evasive,negative,high,call
+44,"Hi, the payment is in the processing queue. Best regards.",neutral,neutral,medium,statement
+45,"Hello, we are adjusting the charges before paying. Regards.",concerned,negative,medium,statement
+46,Good afternoon. The payment will be made at month-end. Regards.,neutral,neutral,medium,statement
+47,"Hi team, I confirm the payment was sent yesterday. Best regards.",collaborative,positive,low,reminder
+48,"Hello, I do not have access to funds right now. Regards.",concerned,negative,high,call
+49,Good morning. The payment is pending accounting validation. Regards.,neutral,neutral,medium,statement
+50,"Hi, we are waiting for CFO approval. Best regards.",concerned,neutral,medium,statement
+51,"Hello, the payment will be made after we receive the corrected invoice. Regards.",collaborative,neutral,low,reminder
+52,Good afternoon. I do not agree with the applied discount. Regards.,evasive,negative,high,call
+53,"Hi team, the payment is under external audit review. Best regards.",neutral,negative,medium,statement
+54,"Hello, I confirm the payment will be made tomorrow. Regards.",collaborative,positive,low,reminder
+55,Good morning. I do not have liquidity this month. Regards.,concerned,negative,high,call
+56,"Hi, the payment will be made once we receive the client transfer. Best regards.",neutral,neutral,medium,statement
+57,"Hello, we are reviewing the additional charges. Regards.",concerned,negative,medium,statement
+58,Good afternoon. The payment will be made once the budget is released. Regards.,neutral,neutral,medium,statement
+59,"Hi team, I confirm the payment is already in process. Best regards.",collaborative,positive,low,reminder
+60,"Hello, I do not recognize this invoice, please clarify. Regards.",evasive,negative,high,call
+61,Good morning. The payment is pending purchasing department approval. Regards.,neutral,neutral,medium,statement
+62,"Hi, we are waiting for the corrected invoice to be sent. Best regards.",collaborative,neutral,low,reminder
+63,"Hello, the payment will be made after committee authorization. Regards.",neutral,neutral,medium,statement
+64,Good afternoon. I confirm the payment will reflect in two days. Regards.,collaborative,positive,low,reminder
+65,"Hi team, I do not have funds until end of month. Best regards.",concerned,negative,high,call
+66,"Hello, the payment is under finance department review. Regards.",neutral,neutral,medium,statement
+67,Good morning. We are adjusting the amount before paying. Regards.,concerned,negative,medium,statement
+68,"Hi, the payment will be made once we receive bank credit. Best regards.",neutral,neutral,medium,statement
+69,"Hello, I confirm the payment was sent today. Regards.",collaborative,positive,low,reminder
+70,Good afternoon. I do not agree with the additional charges. Regards.,evasive,negative,high,call
+71,"Hi team, the payment is pending internal validation. Best regards.",neutral,neutral,medium,statement
+72,"Hello, we are waiting for treasury confirmation. Regards.",concerned,neutral,medium,statement
+73,Good morning. The payment will be made once we receive the original invoice. Regards.,collaborative,neutral,low,reminder
+74,"Hi, I confirm the payment will be made next week. Best regards.",collaborative,positive,low,reminder
+76,Good morning. The payment is under accounting department review. Regards.,neutral,neutral,medium,statement
+77,"Hello, we are adjusting the invoice before paying. Best regards.",concerned,negative,medium,statement
+78,"Hi team, the payment will be made once the manager authorizes it. Regards.",neutral,neutral,medium,statement
+79,Good afternoon. I confirm the payment has already been processed. Best.,collaborative,positive,low,reminder
+80,"Hello, I do not recognize the invoiced amount, please check. Regards.",evasive,negative,high,call
+81,"Hi, the payment is pending finance department approval. Best regards.",neutral,neutral,medium,statement
+82,Good morning. We are waiting for the corrected invoice. Regards.,collaborative,neutral,low,reminder
+83,"Hello, the payment will be made after director authorization. Best regards.",neutral,neutral,medium,statement
+84,"Hi team, I confirm the payment will reflect tomorrow. Regards.",collaborative,positive,low,reminder
+85,Good afternoon. I do not have funds available this quarter. Regards.,concerned,negative,high,call
+86,"Hello, the payment is under external audit review. Best regards.",neutral,negative,medium,statement
+87,"Hi, we are adjusting the charges before paying. Regards.",concerned,negative,medium,statement
+88,Good morning. The payment will be made once the budget is approved. Regards.,neutral,neutral,medium,statement
+89,"Hello, I confirm the payment is already in process. Best regards.",collaborative,positive,low,reminder
+90,"Hi team, I do not recognize this invoice, please clarify. Regards.",evasive,negative,high,call
+91,Good afternoon. The payment is pending purchasing department validation. Regards.,neutral,neutral,medium,statement
+92,"Hello, we are waiting for the invoice correction. Best regards.",collaborative,neutral,low,reminder
+93,"Hi, the payment will be made once committee approval is received. Regards.",neutral,neutral,medium,statement
+94,Good morning. I confirm the payment will reflect in two days. Best regards.,collaborative,positive,low,reminder
+95,"Hello, I do not have liquidity until end of month. Regards.",concerned,negative,high,call
+96,"Hi team, the payment is under finance department review. Best regards.",neutral,neutral,medium,statement
+97,Good afternoon. We are adjusting the invoice amount before paying. Regards.,concerned,negative,medium,statement
+98,"Hello, the payment will be made once bank credit is received. Best regards.",neutral,neutral,medium,statement
+99,"Hi, I confirm the payment was sent today. Regards.",collaborative,positive,low,reminder
+100,Good morning. I do not agree with the additional charges. Regards.,evasive,negative,high,call
