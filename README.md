@@ -253,6 +253,7 @@ Correos_de_clientes.csv
 El objetivo fue analizar el contenido de los correos electrónicos para identificar el sentimiento predominante de cada mensaje (positivo, neutral o negativo), evaluando la posibilidad de utilizar esta información como una variable adicional para mejorar la predicción del riesgo financiero.
 
 Este modelo se desarrolló como una prueba de concepto independiente, por lo que no fue integrado al servicio de inferencia implementado mediante FastAPI. Sin embargo, permitió validar el potencial del Procesamiento de Lenguaje Natural (NLP) como complemento de los modelos basados en variables financieras y constituye una línea de mejora para futuras versiones del proyecto.
+
 ----------
 
 # 2.3 Gestión de experimentos con MLflow
@@ -579,6 +580,13 @@ Como mejoras futuras se consideran:
     
 -   integración con sistemas empresariales.
     
+----------
+
+## **Análisis de sentimientos**
+
+Como resultado de la prueba de concepto desarrollada, se comprobó la viabilidad de aplicar técnicas de **Procesamiento de Lenguaje Natural (NLP)** para analizar el contenido de los correos electrónicos de clientes y extraer información relacionada con el tono de la comunicación.
+
+Aunque este modelo no forma parte del servicio de predicción implementado en la API, representa una línea de mejora para futuras versiones del proyecto, ya que la incorporación de variables textuales podría complementar la información financiera y contribuir a mejorar la capacidad predictiva de los modelos de clasificación y regresión.
 
 ----------
 
@@ -613,7 +621,9 @@ Sistema predictivo capaz de:
     
 -   proporcionar predicciones mediante API,
     
--   monitorear desempeño del modelo.
+-   monitorear desempeño del modelo,
+  
+-   explorar información textual mediante análisis de sentimientos como apoyo para futuras mejoras del sistema.
     
 
 ----------
