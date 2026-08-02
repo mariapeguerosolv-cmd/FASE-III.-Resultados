@@ -233,6 +233,26 @@ src/regression_model.pkl
 
 ```
 
+# **Modelo complementario de análisis de sentimientos**
+
+Como parte del proyecto también se desarrolló un **modelo complementario de análisis de sentimientos** aplicado a correos electrónicos de clientes, con el propósito de explorar cómo la información textual puede complementar los modelos predictivos utilizados en el proceso de cobranza.
+
+El desarrollo se realizó mediante un cuaderno de Jupyter:
+
+```
+Analisis de sentimientos/
+    Analisis de sentimientos.ipynb
+```
+
+utilizando el conjunto de datos:
+
+```
+Correos_de_clientes.csv
+```
+
+El objetivo fue analizar el contenido de los correos electrónicos para identificar el sentimiento predominante de cada mensaje (positivo, neutral o negativo), evaluando la posibilidad de utilizar esta información como una variable adicional para mejorar la predicción del riesgo financiero.
+
+Este modelo se desarrolló como una **prueba de concepto independiente**, por lo que **no fue integrado al servicio de inferencia implementado mediante FastAPI**. Sin embargo, permitió validar el potencial del Procesamiento de Lenguaje Natural (NLP) como complemento de los modelos basados en variables financieras y constituye una línea de mejora para futuras versiones del proyecto.
 ----------
 
 # 2.3 Gestión de experimentos con MLflow
