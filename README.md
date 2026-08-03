@@ -221,7 +221,7 @@ src/regression_model.pkl
 
 # **Modelo complementario de análisis de sentimientos**
 
-Como parte del proyecto también se desarrolló un **modelo complementario de análisis de sentimientos** aplicado a correos electrónicos de clientes, con el propósito de explorar cómo la información textual puede complementar los modelos predictivos utilizados en el proceso de cobranza.
+Como parte del proyecto también se desarrolló un modelo complementario de análisis de sentimientos aplicado a correos electrónicos de clientes, con el propósito de explorar cómo la información textual puede complementar los modelos predictivos utilizados en el proceso de cobranza.
 
 El desarrollo se realizó mediante un cuaderno de Jupyter:
 
@@ -311,7 +311,7 @@ También se incorporó un workflow inicial mediante:
 
 Este permite automatizar validaciones básicas del repositorio.
 
-La implementación corresponde a una adopción parcial de principios GitOps, enfocada principalmente en versionamiento y trazabilidad del proyecto.
+La implementación corresponde a una adopción de principios GitOps, enfocada principalmente en versionamiento y trazabilidad del proyecto.
 
 ----------
 
@@ -369,6 +369,7 @@ Resultado esperado:
 
 -   categoría de riesgo.
     
+<img width="647" height="492" alt="Captura de pantalla 2026-08-02 151917" src="https://github.com/user-attachments/assets/24b217bb-0c39-4c5b-b741-e64b981e5bd9" />
 
 ----------
 
@@ -378,10 +379,15 @@ Permite estimar:
 
 -   monto esperado de recuperación.
     
+<img width="627" height="536" alt="Captura de pantalla 2026-08-02 151330" src="https://github.com/user-attachments/assets/67ae10b3-a4e9-4448-a9d0-fb858f7c9c1d" />
 
 Las pruebas realizadas mediante Swagger permitieron validar respuestas exitosas del servicio.
 
+
+
 ----------
+
+**2.Documento técnico de operación. Elabora un documento técnico de operación en el que se describa de manera detallada la arquitectura de la solución, incluyendo los componentes del sistema, los mecanismos de monitoreo implementados, las estrategias de auditoría, las métricas clave de desempeño y las acciones de optimización realizadas. Las decisiones deben sustentarse con base en los resultados obtenidos durante la operación del modelo.**
 
 # Despliegue de la solución
 
@@ -493,7 +499,7 @@ Cuando se detectan cambios importantes se recomienda:
 
 ----------
 
-**2.Documento técnico de operación. Elabora un documento técnico de operación en el que se describa de manera detallada la arquitectura de la solución, incluyendo los componentes del sistema, los mecanismos de monitoreo implementados, las estrategias de auditoría, las métricas clave de desempeño y las acciones de optimización realizadas. Las decisiones deben sustentarse con base en los resultados obtenidos durante la operación del modelo.**
+
 
 # Auditoría y trazabilidad
 
