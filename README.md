@@ -1,5 +1,15 @@
 # FASE III. Resultados
 
+# Gestión de proyectos de inteligencia artificial  
+
+## Actividad: FASE III. Resultados  
+
+**Alumno(a):** María Fernanda Olvera Pegueros  
+**Matrícula:** AL07154082  
+**Docente:** Luis Ariel Vázquez Piña  
+**Fecha de entrega:** 01 / 08 / 2026  
+
+
 # Declaración de Uso de Inteligencia Artificial
 
 | Herramienta          | ¿La usaste? | Propósito / Descripción                                                                 |
@@ -12,7 +22,7 @@
 
 ----------
 
-# 1. Introducción
+# Introducción
 
 En las fases anteriores se desarrolló una solución de Inteligencia Artificial orientada al proceso financiero de cuentas por cobrar (_Order to Cash / Collections_), cuyo objetivo principal fue identificar clientes con mayor probabilidad de atraso y estimar la recuperación esperada de facturas pendientes.
 
@@ -48,9 +58,13 @@ La solución permite generar predicciones orientadas a mejorar la priorización 
 
 ----------
 
-# 2. Desarrollo
+# Desarrollo
 
-# 2.1 Pipeline de Machine Learning implementado
+**Instrucciones. Realiza lo siguiente:**
+**1.Pipeline automatizado de inteligencia artificial. Desarrolla un pipeline automatizado de inteligencia artificial que integre prácticas de MLOps y GitOps, asegurando la implementación de integración continua, pruebas automatizadas de código y datos, versionado de modelos y artefactos, así como un proceso funcional de despliegue continuo. Las decisiones técnicas tomadas durante su construcción deben justificarse y documentarse mediante evidencias del funcionamiento del pipeline en un entorno simulado o real.**
+
+
+# Pipeline de Machine Learning implementado
 
 La arquitectura desarrollada fue organizada de la siguiente manera:
 
@@ -89,7 +103,7 @@ El pipeline permite mantener separados los procesos de entrenamiento, almacenami
 
 ----------
 
-# 2.2 Entrenamiento de modelos predictivos
+# Entrenamiento de modelos predictivos
 
 El entrenamiento fue desarrollado utilizando Python y librerías especializadas:
 
@@ -228,7 +242,7 @@ Este modelo se desarrolló como una prueba de concepto independiente, por lo que
 
 ----------
 
-# 2.3 Gestión de experimentos con MLflow
+# Gestión de experimentos con MLflow
 
 Para administrar el ciclo de vida de los modelos se implementó MLflow Tracking.
 
@@ -257,7 +271,7 @@ MLflow facilita la trazabilidad del modelo desde la etapa de entrenamiento hasta
 
 ----------
 
-# 2.4 Control de versiones y prácticas GitOps
+# Control de versiones y prácticas GitOps
 
 El proyecto fue integrado con Git y GitHub para administrar cambios del código fuente y conservar historial de desarrollo.
 
@@ -301,7 +315,7 @@ La implementación corresponde a una adopción parcial de principios GitOps, enf
 
 ----------
 
-# 2.5 Contenerización mediante Docker
+# Contenerización mediante Docker
 
 Para garantizar que la aplicación pudiera ejecutarse en diferentes ambientes se creó un contenedor utilizando Docker.
 
@@ -334,7 +348,7 @@ Beneficios obtenidos:
 
 ----------
 
-# 2.6 Implementación de API para predicciones
+# Implementación de API para predicciones
 
 Se desarrolló una API utilizando FastAPI para consumir los modelos entrenados.
 
@@ -369,7 +383,7 @@ Las pruebas realizadas mediante Swagger permitieron validar respuestas exitosas 
 
 ----------
 
-# 2.7 Despliegue de la solución
+# Despliegue de la solución
 
 La solución fue preparada para ejecutarse mediante contenedores.
 
@@ -396,7 +410,7 @@ El uso de Docker permite transportar la aplicación manteniendo las mismas confi
 
 ----------
 
-# 2.8 Monitoreo del modelo
+# Monitoreo del modelo
 
 Se desarrolló un componente de monitoreo:
 
@@ -479,7 +493,9 @@ Cuando se detectan cambios importantes se recomienda:
 
 ----------
 
-# 2.9 Auditoría y trazabilidad
+**2.Documento técnico de operación. Elabora un documento técnico de operación en el que se describa de manera detallada la arquitectura de la solución, incluyendo los componentes del sistema, los mecanismos de monitoreo implementados, las estrategias de auditoría, las métricas clave de desempeño y las acciones de optimización realizadas. Las decisiones deben sustentarse con base en los resultados obtenidos durante la operación del modelo.**
+
+# Auditoría y trazabilidad
 
 Para mantener evidencia del ciclo de vida del modelo se utilizaron:
 
@@ -512,7 +528,7 @@ Esto permite identificar qué versión del modelo fue utilizada y cuáles fueron
 
 ----------
 
-# 2.10 Resultados obtenidos
+# Resultados obtenidos
 
 ## Clasificación
 
@@ -560,7 +576,7 @@ Como resultado de la prueba de concepto desarrollada, se comprobó la viabilidad
 
 Aunque este modelo no forma parte del servicio de predicción implementado en la API, representa una línea de mejora para futuras versiones del proyecto, ya que la incorporación de variables textuales podría complementar la información financiera y contribuir a mejorar la capacidad predictiva de los modelos de clasificación y regresión.
 
-## 2.11 Estimación de beneficios y costos del proyecto
+## Estimación de beneficios y costos del proyecto
 
 Con base en el análisis de viabilidad realizado durante la etapa de planeación del proyecto, se estimaron los siguientes beneficios potenciales de implementar la solución **Predictive Collection** en un entorno empresarial.
 
@@ -608,7 +624,9 @@ Estas cifras corresponden a una **estimación realizada durante la fase de plane
 
 ----------
 
-# 3. Portfolio técnico estratégico
+**3.Portfolio técnico-estratégico. Construye un portfolio técnico-estratégico que integre la descripción completa del proyecto, destacando el problema abordado, el valor de negocio generado, el stack tecnológico utilizado, los resultados alcanzados y las evidencias visuales del proceso. La narrativa profesional debe articular los aspectos técnicos con el impacto estratégico de la solución**
+
+# Portfolio técnico estratégico
 
 ## Nombre del proyecto
 
@@ -664,7 +682,7 @@ Sistema predictivo capaz de:
 ----------
 
 
-# 5. Conclusiones
+# Conclusiones
 
 El desarrollo de esta fase permitió evolucionar una solución experimental de Machine Learning hacia una arquitectura con prácticas orientadas a producción.
 
@@ -696,5 +714,8 @@ Como trabajo futuro se plantea fortalecer la automatización, mejorar la calidad
 <img width="1467" height="402" alt="image" src="https://github.com/user-attachments/assets/e5fc1670-4edd-46a7-8237-9e0fecc9dbfb" />
 
 <img width="265" height="747" alt="image" src="https://github.com/user-attachments/assets/a056e2e2-8096-488e-ae07-c1ac5a86cf51" />
+
+**registro de versiones**
+<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/aff58557-ef35-4529-af8d-215bdfbc772a" />
 
 
