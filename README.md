@@ -524,7 +524,7 @@ monitor.log
 -   Resultados generados:
     
 
-```
+
 comparacion_modelos.csv
 
 <img width="1977" height="1015" alt="image" src="https://github.com/user-attachments/assets/fe5dbd4d-cd7b-4545-9391-465c4414b459" />
@@ -549,7 +549,7 @@ regresion_errores.png
 
 
 
-```
+
 
 Esto permite identificar qué versión del modelo fue utilizada y cuáles fueron sus resultados.
 
