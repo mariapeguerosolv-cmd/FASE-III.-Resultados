@@ -526,12 +526,26 @@ monitor.log
 
 ```
 comparacion_modelos.csv
+
+<img width="1977" height="1015" alt="image" src="https://github.com/user-attachments/assets/fe5dbd4d-cd7b-4545-9391-465c4414b459" />
+
+
 confusion_matrix.png
 
-<img width="1977" height="1015" alt="image" src="https://github.com/user-attachments/assets/394c94c9-00cf-4f0c-8771-9d630007f065" />
+
+<img width="500" height="400" alt="confusion_matrix" src="https://github.com/user-attachments/assets/00d932ad-5320-4186-8af6-8db5796b5086" />
+
+
 
 regresion_dispersion.png
+
+<img width="600" height="600" alt="regresion_dispersion" src="https://github.com/user-attachments/assets/f81942eb-e1e4-4f28-8758-9ea90ab51b60" />
+
+
 regresion_errores.png
+
+<img width="600" height="400" alt="regresion_errores" src="https://github.com/user-attachments/assets/df88ff95-e38f-4da1-8708-0bc2b5b832ea" />
+
 
 
 
