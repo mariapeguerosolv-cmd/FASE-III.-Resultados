@@ -527,7 +527,7 @@ monitor.log
 
 comparacion_modelos.csv
 
-<img width="1977" height="1015" alt="image" src="https://github.com/user-attachments/assets/fe5dbd4d-cd7b-4545-9391-465c4414b459" />
+<img width="1548" height="167" alt="image" src="https://github.com/user-attachments/assets/c5afae66-ebc3-44c9-ad1b-49cc58f0f7be" />
 
 
 confusion_matrix.png
@@ -605,15 +605,20 @@ Aunque este modelo no forma parte del servicio de predicción implementado en la
 
 ## Estimación de beneficios y costos del proyecto
 
-Con base en el análisis de viabilidad realizado durante la etapa de planeación del proyecto, se estimaron los siguientes beneficios potenciales de implementar la solución **Predictive Collection** en un entorno empresarial.
+Con base en el análisis de viabilidad realizado durante la etapa de planeación del proyecto, se estimaron los siguientes beneficios potenciales de implementar la solución Predictive Collection en un entorno empresarial.
 
 ### Beneficios tangibles estimados (6 meses)
 
 •	Reducción de cartera vencida: $5,000,000.00 MXN (6 meses)
+
 •	Mejora en flujo de efectivo: $3,000,000.00 MXN
+
 •	Reducción de costos operativos: $2,000,000.00 MXN
+
 •	Disminución de horas hombre: $180,000.00 MXN
+
 •	Reducción de errores/retrabajo: $500,000.00 MXN
+
       Total tangibles: $10,680,000.00 MXN (6 meses)
 
 <img width="745" height="456" alt="image" src="https://github.com/user-attachments/assets/ea761e67-571a-4ae7-90cd-5536da237fff" />
@@ -647,7 +652,7 @@ Además de los beneficios cuantificables, se identificaron beneficios cualitativ
 <img width="752" height="450" alt="image" src="https://github.com/user-attachments/assets/2dfd549f-35e7-4963-9f71-709f409efe80" />
 
 
-Estas cifras corresponden a una **estimación realizada durante la fase de planeación del proyecto**, con el propósito de evaluar la viabilidad económica de una implementación empresarial a gran escala.
+Estas cifras corresponden a una estimación realizada durante la fase de planeación del proyecto, con el propósito de evaluar la viabilidad económica de una implementación empresarial a gran escala.
 
 ----------
 
@@ -708,6 +713,37 @@ Sistema predictivo capaz de:
 
 ----------
 
+**5.Integra evidencias del proceso de desarrollo a lo largo de la actividad, tales como capturas de pantalla, registros de versiones, iteraciones del modelo o bitácoras de trabajo, con el propósito de validar la autenticidad del trabajo y reflejar el proceso de toma de decisiones.**
+
+Evidencias del proceso de desarrollo
+1. Bitácoras de trabajo
+Las capturas del archivo monitor.log muestran cómo se registraron métricas clave del modelo (accuracy, latencia y error rate) en distintos momentos de ejecución. Estos registros evidencian el seguimiento continuo del desempeño y permiten validar la estabilidad del modelo en producción.
+
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/63db9d1b-b6cb-4ad4-bcf5-8772000e66fb" />
+
+2. Registros de versiones
+Los registros de GitHub Actions reflejan la trazabilidad del proyecto mediante commits y ejecuciones exitosas del pipeline. Cada versión documenta cambios específicos, como la actualización del README.md o la configuración inicial del proyecto, lo que demuestra un proceso iterativo y controlado.
+
+<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/aff58557-ef35-4529-af8d-215bdfbc772a" />
+
+3. Iteraciones del modelo
+Se incluyen evidencias de entrenamientos realizados, como los archivos classification_model.pkl y regression_model.pkl. Además, las gráficas (confusion_matrix.png, regresion_dispersion.png, regresion_errores.png) muestran el análisis visual de resultados, validando la evolución del modelo y las decisiones tomadas en cada iteración.
+
+<img width="717" height="313" alt="image" src="https://github.com/user-attachments/assets/a7e9aa47-d0ff-45b3-a9a5-e6b6c53cb4c1" />
+
+
+4. Estructura del repositorio
+La captura de la estructura del repositorio evidencia la organización del proyecto: scripts de entrenamiento (train_models.py), archivos de despliegue (Dockerfile, app.py), datasets y configuraciones (requirements.txt). Esta organización refleja decisiones técnicas orientadas a la reproducibilidad y escalabilidad del trabajo.
+
+<img width="265" height="747" alt="image" src="https://github.com/user-attachments/assets/a056e2e2-8096-488e-ae07-c1ac5a86cf51" />
+
+5. Logs y métricas
+Los registros muestran métricas cuantitativas del modelo: accuracy constante en 0.6775, RMSE ≈ 5695.9 y R² ≈ 0.5952. Asimismo, se observan variaciones en la latencia (de 109 ms a 287 ms), lo que evidencia un monitoreo real y la necesidad de optimizar el rendimiento. Estos datos validan el proceso de evaluación y ajuste.
+
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/63db9d1b-b6cb-4ad4-bcf5-8772000e66fb" />
+
+
+----------
 
 # Conclusiones
 
@@ -735,14 +771,3 @@ Los resultados muestran que el modelo de clasificación puede aportar valor al p
 De manera complementaria, se desarrolló un modelo de análisis de sentimientos aplicado a correos electrónicos de clientes, el cual permitió explorar el uso de técnicas de Procesamiento de Lenguaje Natural como una fuente adicional de información para enriquecer futuros modelos predictivos. Aunque esta funcionalidad no fue integrada al servicio de inferencia desplegado, representa una oportunidad para ampliar el alcance del sistema mediante la incorporación de variables textuales.
 
 Como trabajo futuro se plantea fortalecer la automatización, mejorar la calidad de información utilizada y evaluar modelos más avanzados para incrementar la precisión predictiva.
-
-<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/63db9d1b-b6cb-4ad4-bcf5-8772000e66fb" />
-
-<img width="1467" height="402" alt="image" src="https://github.com/user-attachments/assets/e5fc1670-4edd-46a7-8237-9e0fecc9dbfb" />
-
-<img width="265" height="747" alt="image" src="https://github.com/user-attachments/assets/a056e2e2-8096-488e-ae07-c1ac5a86cf51" />
-
-**registro de versiones**
-<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/aff58557-ef35-4529-af8d-215bdfbc772a" />
-
-
