@@ -663,55 +663,6 @@ Sistema predictivo capaz de:
 
 ----------
 
-# 4. Simulación de entrevista profesional
-
-### ¿Qué modelos desarrollaste durante el proyecto?
-
-Se desarrollaron dos modelos principales: un modelo de clasificación mediante Regresión Logística para predecir el nivel de riesgo de los clientes y un modelo de Regresión Lineal para estimar la recuperación esperada de las cuentas por cobrar. Además, se desarrolló un modelo complementario de análisis de sentimientos aplicado a correos electrónicos de clientes como prueba de concepto para explorar el uso de técnicas de Procesamiento de Lenguaje Natural (NLP).
-
-----------
-
-## ¿Cuál fue el objetivo del proyecto?
-
-Desarrollar una solución predictiva para apoyar procesos de cobranza mediante clasificación de riesgo y estimación de recuperación financiera.
-
-----------
-
-## ¿Qué prácticas MLOps implementaste?
-
-Se implementaron prácticas de seguimiento experimental con MLflow, versionamiento con Git, almacenamiento de modelos, contenerización mediante Docker, exposición mediante API y monitoreo del comportamiento del modelo.
-
-----------
-
-## ¿Cómo garantizas la trazabilidad?
-
-Mediante:
-
--   historial de commits,
-    
--   experimentos registrados en MLflow,
-    
--   modelos versionados,
-    
--   archivos de métricas y monitoreo.
-    
-
-----------
-
-## ¿Qué mejorarías en una siguiente versión?
-
-Como mejoras futuras se propone:
-
--   integración con bases empresariales,
-    
--   automatización completa del ciclo de despliegue,
-    
--   mayor cantidad de datos históricos,
-    
--   modelos más avanzados.
-    
-
-----------
 
 # 5. Conclusiones
 
