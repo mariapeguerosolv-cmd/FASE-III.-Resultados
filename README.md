@@ -61,7 +61,8 @@ La solución permite generar predicciones orientadas a mejorar la priorización 
 # Desarrollo
 
 **Instrucciones. Realiza lo siguiente:**
-**1.Pipeline automatizado de inteligencia artificial. Desarrolla un pipeline automatizado de inteligencia artificial que integre prácticas de MLOps y GitOps, asegurando la implementación de integración continua, pruebas automatizadas de código y datos, versionado de modelos y artefactos, así como un proceso funcional de despliegue continuo. Las decisiones técnicas tomadas durante su construcción deben justificarse y documentarse mediante evidencias del funcionamiento del pipeline en un entorno simulado o real.**
+**1.Pipeline automatizado de inteligencia artificial. 
+Desarrolla un pipeline automatizado de inteligencia artificial que integre prácticas de MLOps y GitOps, asegurando la implementación de integración continua, pruebas automatizadas de código y datos, versionado de modelos y artefactos, así como un proceso funcional de despliegue continuo. Las decisiones técnicas tomadas durante su construcción deben justificarse y documentarse mediante evidencias del funcionamiento del pipeline en un entorno simulado o real.**
 
 
 # Pipeline de Machine Learning implementado
@@ -387,7 +388,8 @@ Las pruebas realizadas mediante Swagger permitieron validar respuestas exitosas 
 
 ----------
 
-**2.Documento técnico de operación. Elabora un documento técnico de operación en el que se describa de manera detallada la arquitectura de la solución, incluyendo los componentes del sistema, los mecanismos de monitoreo implementados, las estrategias de auditoría, las métricas clave de desempeño y las acciones de optimización realizadas. Las decisiones deben sustentarse con base en los resultados obtenidos durante la operación del modelo.**
+**2.Documento técnico de operación. 
+Elabora un documento técnico de operación en el que se describa de manera detallada la arquitectura de la solución, incluyendo los componentes del sistema, los mecanismos de monitoreo implementados, las estrategias de auditoría, las métricas clave de desempeño y las acciones de optimización realizadas. Las decisiones deben sustentarse con base en los resultados obtenidos durante la operación del modelo.**
 
 # Despliegue de la solución
 
@@ -525,8 +527,13 @@ monitor.log
 ```
 comparacion_modelos.csv
 confusion_matrix.png
+
+<img width="1977" height="1015" alt="image" src="https://github.com/user-attachments/assets/394c94c9-00cf-4f0c-8771-9d630007f065" />
+
 regresion_dispersion.png
 regresion_errores.png
+
+
 
 ```
 
